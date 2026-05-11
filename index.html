@@ -881,10 +881,10 @@ function calc(){
     const PAYMENT_PAY={
       standard:`IB rewards paid on <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
       'raw-ct':`IB rewards paid on <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
-      'raw-b2t':`IB rewards paid on <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
+      'raw-b2t':`IB rewards paid on <span class="fb-accent">trade open</span> and <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
       unified:'',
       spot:`IB rewards paid on <span class="fb-accent">trade open</span> and <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
-      perp:`IB rewards paid on <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
+      perp:`IB rewards paid on <span class="fb-accent">trade open</span> and <span class="fb-accent">trade close</span>.<br><span style="color:var(--t3)">Rewards are disbursed at the beginning of every week.</span>`,
     };
     const isLotPlan=t==='standard';
     const isCommPlan=!isLotPlan&&!isUnified(t);
